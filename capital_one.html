@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html class="nojs html" lang="en-US">
+ <head>
+
+  <script type="text/javascript">
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "jquery.scrolleffects.js", "museredirect.js", "jquery.musemenu.js", "about-me.css"], "outOfDate":[]};
+</script>
+  
+  <script src="scripts/museredirect.js?3985760531" type="text/javascript"></script>
+  
+  <script type="text/javascript">
+   Muse.Redirect.redirect('desktop', 'beginner.html', 'beginner.html');
+</script>
+  
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <link media="only screen and (max-width: 370px)" rel="alternate" href="http://www.nostalgia2.com/phone/about-me.html"/>
+  <link media="only screen and (max-width: 960px)" rel="alternate" href="http://www.nostalgia2.com/tablet/about-me.html"/>
+  <meta name="generator" content="2015.1.0.342"/>
+  <title>Nerdina</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?4114873820"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?4232298617"/>
+  <link rel="stylesheet" type="text/css" href="css/about-me.css?130549041" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/open-sans:n4:default;yesteryear:n4:default;playfair-display:n4:default;just-another-hand:n4:default;nothing-you-could-do:n4:default.js" type="text/javascript">\x3C/script>');
+</script>
+  <!--[if lt IE 9]>
+  <script src="scripts/html5shiv.js?4241844378" type="text/javascript"></script>
+  <![endif]-->
+    <!--custom head HTML-->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/wow/1.0.3/wow.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.1/animate.min.css">
+ </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+        
+    <div class="clearfix colelem" id="pu60399-4"><!-- group -->
+     <div class="clearfix grpelem" id="u60399-4"><!-- content -->
+      <p>Optimizing and Predicting Emergency Calls in the SF Bay Area</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u33118-12"><!-- content -->
+     <p id="u33118-2">
+      Much of the data analysis and visualization that I conducted was through Microsoft Excel and Google Sheets. In this website, I will be breaking down the visualizations by question numbers. My calculation for dispatch time was to subtract dispatch_timestamp from entry_timestamp and convert that time into seconds. This allows for an easier value to average for the further questions that involved average dispatch time. My main use of location were zip codes, because it allowed for a direct sorting of multiple values including average dispatch time, dispatch type (unit_type), and call type. However, for problem 3, I looked at the longest average dispatch time for the three location classification systems: zip code, station number, and city. The overall average dispatch time amongst the entire dataset is 225 seconds. I also added Google Maps visualizations of the 3 location categories above to compare and contrast the area that had the longest average dispatch time. 
+    </p><br/>
+     
+    </div>
+
+
+    <div class="clearfix colelem" id="pu60399-4"><!-- group -->
+     <div class="clearfix grpelem" id="u60399-4"><!-- content -->
+      <p>1. Data Visuals: displaying 3 metrics or trends from dataset</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u33118-12"><!-- content -->
+     <p id="u33118-2">
+      <font color = "#000000" size = "5">1.1: Average dispatch time based on call type</font><br/><br/>
+     The first trend that I wanted to analyze was the average dispatch time based on the call type. After collectings the data, I decided to have one graph that showed all of the call types and then another that had all of the call types but Trail/Rail Incident. As you can see from the first graph will all of the call types, the average Train/Rail Incident has a significantly longer average dispatch time than any of the other call types at 8298 seconds. The 2nd longest average dispatch time was Water Rescue at 304 seconds. Intuitively, this makes sense because Trains/Rail Incidences are much more difficult to solve and to tend to than single person-based calls like Water Rescues and Elevator/Escalator Rescues. 
+    
+    </div>
+
+    <div class="clearfix colelem" id="u2386"><!-- group -->
+     <div class="museBGSize grpelem" id="u2335"><!-- simple frame --><img src = "images1/1-1-noTrain.png"/ width = "1143" height = "600"></div></div>
+     <div class="clearfix colelem" id="u2386"><!-- group -->
+     <div class="museBGSize grpelem" id="u2335"><!-- simple frame --><img src = "images1/1-1-withTrain.png"/ width = "1143" height = "600">
+    </div></div>
+    <div class="clearfix colelem" id="pu60408"><!-- group -->
+     <div class="browser_width mse_pre_init" id="u60408-bw">
+     </div>
+
+   </div>
+
+
+    <div class="clearfix colelem" id="u33118-12"><!-- content -->
+     <p id="u33118-2">
+      <font color = "#000000" size = "5">1.2: Final dispatch distribution</font><br/><br/>
+    The second metric that I wanted to show was which final dispatch type was the most prevalent within the dataset through analyzing the percent distribution of final dispatch type for all of the calls made in the data set. As can be shown from the donut graph, I have shown the top 4 percentage dispatch types with text. In the graph, Code 2 Transport makes up the majority of the percentage distribution at 50.4% percent of calls. For the second largest, Fire makes up 26.4% of the percentage distribution. The other 10 call types each have AT MOST 5% percent distrubtion. This can be explained because Code 2 is classified as Non-Emergencies, which make up a majority of the country's calls/crimes. 
+    
+    </div>
+
+    <div class="clearfix colelem" id="u2386"><!-- group -->
+     <div class="museBGSize grpelem" id="u2335"><!-- simple frame --><img src = "images1/1-2-donutDistribution.png"/ width = "1143" height = "600"></div>
+    </div>
+    <div class="clearfix colelem" id="pu60408"><!-- group -->
+     <div class="browser_width mse_pre_init" id="u60408-bw">
+     </div>
+
+
+   </div>
+
+ <div class="clearfix colelem" id="u33118-12"><!-- content -->
+     <p id="u33118-2">
+      <font color = "#000000" size = "5">1.3: Call Type Distribution</font><br/><br/>
+    The third and final trend I wanted to show was the estimated call type based on Final Priority Type. I decided to use a stacked bar chart to not only compare the call type distribution within each Final Priority Type, but also between each Final Priority Type as well. As shown by the graph, for Priority Type 2, the most prevalent call type is Non Life-Threatening, which made up 2183 of the calls out of 2925 in total, which is 74.63% of all Type 2 calls. For Prioirty Type 3, the most prevalent is Potentially Life-Thretening, which made up 4012 of the calls out of 7071 ins total, which is 56.74% of all Type 3 calls. Therefore, depending on the priority type, the expected call type differs.
+    
+    </div>
+
+    <div class="clearfix colelem" id="u2386"><!-- group -->
+     <div class="museBGSize grpelem" id="u2335"><!-- simple frame --><img src = "images1/1-3-callTypeDistribution.png"/ width = "1143" height = "600"></div>
+    </div>
+    <div class="clearfix colelem" id="pu60408"><!-- group -->
+     <div class="browser_width mse_pre_init" id="u60408-bw">
+     </div>
+
+
+   </div>
+
+   <div class="clearfix colelem" id="pu60399-4"><!-- group -->
+     <div class="clearfix grpelem" id="u60399-4"><!-- content -->
+      <p>2. Given address and time, most likely dispatch to required</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u33118-12"><!-- content -->
+     <p id="u33118-2">
+      
+    
+     To find the most likely dispatch to be required, I created 2 graphs; one based on location and another based on time. For the location, I used zip codes. For time, I converted the dispatch time that I found as explained in the introduction into seconds. As can be seen by the first graph below, the zip code that has the most calls is 94102. Within that zip code, the most prevalent dispatch type is Engine at 472 of the calls. As can be seen throughout all of the zip codes, the two most prevalent dispatch types are Engine and Medic, which make up 30.66% and 11.54% of the total dispatches, respectively. For each specific location, the most likely dispatch type can be found through the largest percentage distribution of calls within each zip code.
+
+     I decided to split up entry times by hour of day in order to properly visualize patterns. For the 2nd graph below, the hour of the day that has the most dispatches is hour 16, and the most prevalent dispatch type at that time is again Engine at 205 of the total dispatches during that hour. Across all hours of the day, the two most prevalent dispatch types are again Engine and Medic. There is a clear rise in the number of dispatches from hours 9 to 16. 
+    
+    </div>
+
+    <div class="clearfix colelem" id="u2386"><!-- group -->
+     <div class="museBGSize grpelem" id="u2335"><!-- simple frame --><img src = "images1/2-2-Location.png"/ width = "1143" height = "600"></div></div>
+     <div class="clearfix colelem" id="u2386"><!-- group -->
+     <div class="museBGSize grpelem" id="u2335"><!-- simple frame --><img src = "images1/2-2-Time.png"/ width = "1143" height = "600">
+    </div></div>
+    <div class="clearfix colelem" id="pu60408"><!-- group -->
+     <div class="browser_width mse_pre_init" id="u60408-bw">
+     </div>
+
+   </div>
+
+
+   <div class="clearfix colelem" id="pu60399-4"><!-- group -->
+     <div class="clearfix grpelem" id="u60399-4"><!-- content -->
+      <p>3. Areas that take the longest time to dispatch on average</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u33118-12"><!-- content -->
+     <p id="u33118-2">
+      
+     To properly determine the areas that take the longest time to dispatch on average, I plotted the average dispatch times of three area types: zip code, station area, and city. For zip code, there are two zip codes that have a significant average dispatch time longer than the others. The longest being 94127 and the second longest being 94015, each being 1870 seconds and 1586 seconds, respectively. The overall average dispatch time is 225 seconds. For station area, there are two clear frontrunners as well: first being 39 at 1553 seconds and second being 13 at 1158 seconds. Finally, for city, the two longest average dispatch times are first, in Presidio at 291 seconds, and in San Francisco at 225 seconds, which is again the overall average dispatch time. 
+
+     As found on Google Maps, the area code for 94127 covers San Francisco, which is the second largest average dispatch time amongst the cities given in the data set. The area code for 94015 is Daly City, which is a suburb of San Francisco. Finally, Presidio is shown as a neighborhood within San Francisco that is right by the Golden Gate Bridge, which contributes to high traffic due to tourists, which explains the high average dispatch time. 
+    
+    </div>
+
+    <div class="clearfix colelem" id="u2386"><!-- group -->
+     <div class="museBGSize grpelem" id="u2335"><!-- simple frame --><img src = "images1/3-1-zip.png"/ width = "1143" height = "600"></div></div>
+     <div class="clearfix colelem" id="u2386"><!-- group -->
+     <div class="museBGSize grpelem" id="u2335"><!-- simple frame --><img src = "images1/3-2-station.png"/ width = "1143" height = "600">
+    </div></div>
+    <div class="clearfix colelem" id="u2386"><!-- group -->
+     <div class="museBGSize grpelem" id="u2335"><!-- simple frame --><img src = "images1/3-3-city.png"/ width = "1143" height = "600">
+    </div></div>
+    <div class="clearfix colelem" id="pu60408"><!-- group -->
+     <div class="browser_width mse_pre_init" id="u60408-bw">
+     </div>
+
+   </div>
+
+
+    <div class="verticalspacer"></div>
+    <div class="browser_width colelem" id="u1753-bw">
+     <div id="u1753"><!-- column -->
+      <div class="clearfix" id="u1753_align_to_page">
+       <div class="clearfix grpelem" id="pu48740"><!-- column -->
+        <div class="clip_frame colelem" id="u48740"><!-- image -->
+         <img class="block" id="u48740_img" src="images/logo.png" alt="" width="199" height="45"/>
+        </div>
+        <div class="clearfix colelem" id="u246-4"><!-- content -->
+         <p>ANGELA SUN © 2017 | ALL RIGHT RESERVED</p>
+        </div>
+       </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?4190794036" type="text/javascript"></script>
+  <script src="scripts/whatinput.js?84559013" type="text/javascript"></script>
+  <script src="scripts/jquery.musemenu.js?3866264083" type="text/javascript"></script>
+  <script src="scripts/jquery.musepolyfill.bgsize.js?3792042506" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?349565855" type="text/javascript"></script>
+  <script src="scripts/jquery.scrolleffects.js?3837774061" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+(function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
+for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
+typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();
+/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+$('#u60408-bw').registerPositionScrollEffect([{"speed":[null,-1],"in":[-Infinity,890.15]},{"speed":[null,0],"in":[890.15,Infinity]}]);/* scroll effect */
+$('#menuu60409').registerPositionScrollEffect([{"speed":[0,-1],"in":[-Infinity,890]},{"speed":[0,0],"in":[890,Infinity]}]);/* scroll effect */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+   </body>
+</html>
