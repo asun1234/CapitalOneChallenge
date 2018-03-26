@@ -38,18 +38,18 @@ var __adobewebfontsappname__ = "muse";
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/wow/1.0.3/wow.min.js"></script>
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.1/animate.min.css">
  </head>
- <body>
+ <body style="background-color:darkturquoise;">
 
   <div class="clearfix" id="page"><!-- column -->
    <div class="position_content" id="page_position_content">
         
     <div class="clearfix colelem" id="pu60399-4"><!-- group -->
      <div class="clearfix grpelem" id="u60399-4"><!-- content -->
-      <p>Optimizing and Predicting Emergency Calls in the SF Bay Area</p>
+      <p style="font-family: garamond, serif; font-size:10pt;"><font size = 15 color = "#ffffff">Optimizing and Predicting Emergency Calls in the SF Bay Area</p>
      </div>
     </div>
     <div class="clearfix colelem" id="u33118-12"><!-- content -->
-     <p id="u33118-2">
+     <p id="u33118-2"  style="font-family: courier new, serif; font-size:15pt;"><font color = "#ffffff">  
       Much of the data analysis and visualization that I conducted was through Microsoft Excel and Google Sheets. In this website, I will be breaking down the visualizations by question numbers. My calculation for dispatch time was to subtract dispatch_timestamp from entry_timestamp and convert that time into seconds. This allows for an easier value to average for the further questions that involved average dispatch time. My main use of location were zip codes, because it allowed for a direct sorting of multiple values including average dispatch time, dispatch type (unit_type), and call type. However, for problem 3, I looked at the longest average dispatch time for the three location classification systems: zip code, station number, and city. The overall average dispatch time amongst the entire dataset is 225 seconds. I also added Google Maps visualizations of the 3 location categories above to compare and contrast the area that had the longest average dispatch time. 
     </p><br/>
      
@@ -58,12 +58,12 @@ var __adobewebfontsappname__ = "muse";
 
     <div class="clearfix colelem" id="pu60399-4"><!-- group -->
      <div class="clearfix grpelem" id="u60399-4"><!-- content -->
-      <p>1. Data Visuals: displaying 3 metrics or trends from dataset</p>
+       <p style="font-family: garamond, serif; font-size:30pt;"><font color = "#ffffff">1. Data Visuals: displaying 3 metrics or trends from dataset</p>
      </div>
     </div>
     <div class="clearfix colelem" id="u33118-12"><!-- content -->
      <p id="u33118-2">
-      <font color = "#000000" size = "5">1.1: Average dispatch time based on call type</font><br/><br/>
+      <p style="font-family: garamond, serif; font-size:20pt;"><font color = "#ffffff">1.1: Average dispatch time based on call type</font><br/><br/><p id="u33118-2"  style="font-family: courier new, serif; font-size:15pt;"><font color = "#ffffff">
      The first trend that I wanted to analyze was the average dispatch time based on the call type. After collectings the data, I decided to have one graph that showed all of the call types and then another that had all of the call types but Trail/Rail Incident. As you can see from the first graph will all of the call types, the average Train/Rail Incident has a significantly longer average dispatch time than any of the other call types at 8298 seconds. The 2nd longest average dispatch time was Water Rescue at 304 seconds. Intuitively, this makes sense because Trains/Rail Incidences are much more difficult to solve and to tend to than single person-based calls like Water Rescues and Elevator/Escalator Rescues. 
     
     </div>
@@ -82,7 +82,8 @@ var __adobewebfontsappname__ = "muse";
 
     <div class="clearfix colelem" id="u33118-12"><!-- content -->
      <p id="u33118-2">
-      <font color = "#000000" size = "5">1.2: Final dispatch distribution</font><br/><br/>
+      <p style="font-family: garamond, serif; font-size:20pt;"><font color = "#ffffff">1.2: Final dispatch distribution</font><br/><br/>
+    <p id="u33118-2"  style="font-family: courier new, serif; font-size:15pt;"><font color = "#ffffff">
     The second metric that I wanted to show was which final dispatch type was the most prevalent within the dataset through analyzing the percent distribution of final dispatch type for all of the calls made in the data set. As can be shown from the donut graph, I have shown the top 4 percentage dispatch types with text. In the graph, Code 2 Transport makes up the majority of the percentage distribution at 50.4% percent of calls. For the second largest, Fire makes up 26.4% of the percentage distribution. The other 10 call types each have AT MOST 5% percent distrubtion. This can be explained because Code 2 is classified as Non-Emergencies, which make up a majority of the country's calls/crimes. 
     
     </div>
@@ -99,7 +100,8 @@ var __adobewebfontsappname__ = "muse";
 
  <div class="clearfix colelem" id="u33118-12"><!-- content -->
      <p id="u33118-2">
-      <font color = "#000000" size = "5">1.3: Call Type Distribution</font><br/><br/>
+      <p style="font-family: garamond, serif; font-size:30pt;"><font color = "#ffffff">1.3: Call Type Distribution</font><br/><br/>
+    <p id="u33118-2"  style="font-family: courier new, serif; font-size:15pt;"><font color = "#ffffff">
     The third and final trend I wanted to show was the estimated call type based on Final Priority Type. I decided to use a stacked bar chart to not only compare the call type distribution within each Final Priority Type, but also between each Final Priority Type as well. As shown by the graph, for Priority Type 2, the most prevalent call type is Non Life-Threatening, which made up 2183 of the calls out of 2925 in total, which is 74.63% of all Type 2 calls. For Prioirty Type 3, the most prevalent is Potentially Life-Thretening, which made up 4012 of the calls out of 7071 ins total, which is 56.74% of all Type 3 calls. Therefore, depending on the priority type, the expected call type differs.
     
     </div>
@@ -116,11 +118,11 @@ var __adobewebfontsappname__ = "muse";
 
    <div class="clearfix colelem" id="pu60399-4"><!-- group -->
      <div class="clearfix grpelem" id="u60399-4"><!-- content -->
-      <p>2. Given address and time, most likely dispatch to required</p>
+     <p style="font-family: garamond, serif; font-size:10pt;"><font size = 15 color = "#ffffff"> 2. Given address and time, most likely dispatch to required</p>
      </div>
     </div>
     <div class="clearfix colelem" id="u33118-12"><!-- content -->
-     <p id="u33118-2">
+     <p id="u33118-2"  style="font-family: courier new, serif; font-size:15pt;"><font color = "#ffffff">
       
     
      To find the most likely dispatch to be required, I created 2 graphs; one based on location and another based on time. For the location, I used zip codes. For time, I converted the dispatch time that I found as explained in the introduction into seconds. As can be seen by the first graph below, the zip code that has the most calls is 94102. Within that zip code, the most prevalent dispatch type is Engine at 472 of the calls. As can be seen throughout all of the zip codes, the two most prevalent dispatch types are Engine and Medic, which make up 30.66% and 11.54% of the total dispatches, respectively. For each specific location, the most likely dispatch type can be found through the largest percentage distribution of calls within each zip code.
@@ -143,11 +145,11 @@ var __adobewebfontsappname__ = "muse";
 
    <div class="clearfix colelem" id="pu60399-4"><!-- group -->
      <div class="clearfix grpelem" id="u60399-4"><!-- content -->
-      <p>3. Areas that take the longest time to dispatch on average</p>
+     <p style="font-family: garamond, serif; font-size:10pt;"><font size = 15 color = "#ffffff">3. Areas that take the longest time to dispatch on average</p>
      </div>
     </div>
     <div class="clearfix colelem" id="u33118-12"><!-- content -->
-     <p id="u33118-2">
+     <p id="u33118-2"  style="font-family: courier new, serif; font-size:15pt;"><font color = "#ffffff">
       
      To properly determine the areas that take the longest time to dispatch on average, I plotted the average dispatch times of three area types: zip code, station area, and city. For zip code, there are two zip codes that have a significant average dispatch time longer than the others. The longest being 94127 and the second longest being 94015, each being 1870 seconds and 1586 seconds, respectively. The overall average dispatch time is 225 seconds. For station area, there are two clear frontrunners as well: first being 39 at 1553 seconds and second being 13 at 1158 seconds. Finally, for city, the two longest average dispatch times are first, in Presidio at 291 seconds, and in San Francisco at 225 seconds, which is again the overall average dispatch time. 
 
@@ -175,9 +177,7 @@ var __adobewebfontsappname__ = "muse";
      <div id="u1753"><!-- column -->
       <div class="clearfix" id="u1753_align_to_page">
        <div class="clearfix grpelem" id="pu48740"><!-- column -->
-        <div class="clip_frame colelem" id="u48740"><!-- image -->
-         <img class="block" id="u48740_img" src="images/logo.png" alt="" width="199" height="45"/>
-        </div>
+
         <div class="clearfix colelem" id="u246-4"><!-- content -->
          <p>ANGELA SUN © 2017 | ALL RIGHT RESERVED</p>
         </div>
